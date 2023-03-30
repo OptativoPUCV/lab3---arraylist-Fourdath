@@ -11,6 +11,8 @@ typedef struct ArrayList {
 } ArrayList;
 
 ArrayList *createList(void) {
+  ArrayList *list= (ArrayList*) malloc(ArrayList);
+  
     return NULL;
 }
 
