@@ -31,3 +31,17 @@ arraylist.c:14:14: error: unused variable ‘list’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 0527688
+Thu 30 Mar 2023 04:01:33 AM UTC: 
+ arraylist.c | 2 ++
+ 1 file changed, 2 insertions(+)
+In file included from test.c:5:
+arraylist.c: In function ‘createList’:
+arraylist.c:15:3: error: this ‘if’ clause does not guard... [-Werror=misleading-indentation]
+   15 |   if( list == NULL)
+      |   ^~
+arraylist.c:18:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   18 |     return NULL;
+      |     ^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+a521df0
