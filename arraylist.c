@@ -17,7 +17,7 @@ ArrayList *createList(void) {
     return NULL;
   }  
   list->data = (void*)malloc(sizeof(void*) * 2);
-    
+   return list; 
 }
 
 void append(ArrayList * l, void * data){
