@@ -26,9 +26,16 @@ ArrayList *createList(void) {
    return list; 
 }
 
-void append(ArrayList * l, void * data){
+
+void append(ArrayList* l, void* data) {
+    if (l == NULL) {
+        return; 
+    }
 
 }
+  
+
+
 
 void push(ArrayList * l, void * data, int i){
 
