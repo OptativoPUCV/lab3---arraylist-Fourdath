@@ -37,10 +37,13 @@ void append(ArrayList* l, void* data) {
   if (nueData == NULL) {
       return; 
   }
-        
-    
-
+  l->data = nueData; 
+  l->capacity = nuevaCap; 
   
+
+  l->data[l->size] = data;
+  l->size++;         
+      
 }
   
 
