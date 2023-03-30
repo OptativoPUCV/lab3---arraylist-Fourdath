@@ -12,9 +12,9 @@ typedef struct ArrayList {
 
 ArrayList *createList(void) {
   ArrayList *list= (ArrayList*) malloc(sizeof(ArrayList));
-  if( list == NULL)
+  if( list == NULL){
     return NULL;
-  
+  }  
     
 }
 
