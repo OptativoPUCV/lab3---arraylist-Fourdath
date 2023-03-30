@@ -17,6 +17,9 @@ ArrayList *createList(void) {
     return NULL;
   }  
   list->data = (void**)malloc(sizeof(void*) * 2);
+  if(list->data == NULL){
+    return NULL;
+  }
   
    return list; 
 }
