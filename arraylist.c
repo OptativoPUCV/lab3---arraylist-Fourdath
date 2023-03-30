@@ -18,6 +18,7 @@ ArrayList *createList(void) {
   }  
   list->data = (void*)malloc(sizeof(void*) * 2);
   if(list->data == NULL){
+    free(list);
     return NULL;
   }
   list->capacity = 2;
