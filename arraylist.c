@@ -15,7 +15,7 @@ ArrayList *createList(void) {
   if( list == NULL)
     return NULL;
   
-    return NULL;
+    
 }
 
 void append(ArrayList * l, void * data){
