@@ -34,7 +34,11 @@ void append(ArrayList* l, void* data) {
   if (l->size >= l->capacity) {
     int nuevaCap = l->capacity * 2; 
      void* nueData = realloc(l->data, nuevaCap * sizeof(void*));
+  if (nueData == NULL) {
+      return; 
+  }
         
+    
 
   
 }
