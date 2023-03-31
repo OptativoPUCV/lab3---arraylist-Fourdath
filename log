@@ -459,3 +459,13 @@ arraylist.c:66:8: error: ‘Dato’ undeclared (first use in this function)
 arraylist.c:66:8: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 e1134ba
+Fri 31 Mar 2023 05:32:37 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+arraylist.c: In function ‘push’:
+arraylist.c:66:9: error: ‘ArrayList’ {aka ‘struct ArrayList’} has no member named ‘Dato’
+   66 |   free(l->Dato);
+      |         ^~
+Compilation failed
+efeb577
