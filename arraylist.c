@@ -55,7 +55,7 @@ void push(ArrayList * l, void * data, int i){
             Dato[k] = l->data[k]; 
     }  
   }  
-  //l->data = Dato;
+  l->data = Dato;
 }
 
 void* pop(ArrayList * l, int i){

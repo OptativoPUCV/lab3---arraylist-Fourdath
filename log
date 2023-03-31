@@ -332,3 +332,14 @@ Fri 31 Mar 2023 05:24:51 AM UTC:
  tests:  3|4
 total_score: 20/70
 67150cc
+Fri 31 Mar 2023 05:25:03 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+arraylist.c: In function ‘push’:
+arraylist.c:58:13: error: ‘Dato’ undeclared (first use in this function)
+   58 |   l->data = Dato;
+      |             ^~~~
+arraylist.c:58:13: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+ee2ee84
