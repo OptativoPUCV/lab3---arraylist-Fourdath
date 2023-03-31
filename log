@@ -315,3 +315,14 @@ arraylist.c:68:5: error: ‘get_size’ defined but not used [-Werror=unused-fun
 cc1: all warnings being treated as errors
 Compilation failed
 6d46ce1
+Fri 31 Mar 2023 05:24:37 AM UTC: 
+ arraylist.c | 2 ++
+ 1 file changed, 2 insertions(+)
+In file included from test.c:5:
+arraylist.c: In function ‘push’:
+arraylist.c:59:13: error: ‘Dato’ undeclared (first use in this function)
+   59 |   l->data = Dato;
+      |             ^~~~
+arraylist.c:59:13: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+ada1348
