@@ -44,12 +44,13 @@ void append(ArrayList* l, void* data) {
   l->size++;           
 }
   
-
-
-
 void push(ArrayList * l, void * data, int i){
   if (i >= l->size) {
       return; 
+  } 
+  if (l->size == l->capacity) {
+    void *Dato = malloc(l->capacity * sizeof(void*));
+        
   }  
 
 }
