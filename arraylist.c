@@ -63,7 +63,7 @@ void push(ArrayList * l, void * data, int i){
   }
   l->data[i] = data;
   l->size++;
-  free(Dato)
+  free(Dato);
 }
 
 void* pop(ArrayList * l, int i){
