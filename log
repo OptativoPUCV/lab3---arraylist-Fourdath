@@ -326,3 +326,9 @@ arraylist.c:59:13: error: ‘Dato’ undeclared (first use in this function)
 arraylist.c:59:13: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 ada1348
+Fri 31 Mar 2023 05:24:51 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|4
+total_score: 20/70
+67150cc

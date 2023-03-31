@@ -52,11 +52,10 @@ void push(ArrayList * l, void * data, int i){
     void **Dato = malloc(l->capacity * sizeof(void*));
     
     for (int k = 0; k < l->size; k++) {
-      
             Dato[k] = l->data[k]; 
     }  
   }  
-  l->data = Dato;
+  //l->data = Dato;
 }
 
 void* pop(ArrayList * l, int i){
