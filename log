@@ -402,3 +402,16 @@ Fri 31 Mar 2023 05:29:28 AM UTC:
  1 file changed, 1 insertion(+), 2 deletions(-)
  tests:  0|0
 c209e41
+Fri 31 Mar 2023 05:31:22 AM UTC: 
+ arraylist.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+arraylist.c: In function ‘push’:
+arraylist.c:57:15: error: expected ‘;’ before ‘l’
+   57 |     free(Dato)
+      |               ^
+      |               ;
+   58 |     l->data = Dato;
+      |     ~          
+Compilation failed
+bad1f1e
