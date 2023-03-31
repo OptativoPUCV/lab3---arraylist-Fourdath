@@ -469,3 +469,13 @@ arraylist.c:66:9: error: ‘ArrayList’ {aka ‘struct ArrayList’} has no mem
       |         ^~
 Compilation failed
 efeb577
+Fri 31 Mar 2023 05:32:49 AM UTC: 
+ arraylist.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+arraylist.c: In function ‘push’:
+arraylist.c:57:11: error: ‘ArrayList’ {aka ‘struct ArrayList’} has no member named ‘Dato’
+   57 |     free(l->Dato);
+      |           ^~
+Compilation failed
+8571fc2

@@ -54,7 +54,7 @@ void push(ArrayList * l, void * data, int i){
     for (int k = 0; k < l->size; k++) {
             Dato[k] = l->data[k]; 
     }  
-    
+    free(l->Dato);
     l->data = Dato;
   }  
   ;
@@ -63,7 +63,7 @@ void push(ArrayList * l, void * data, int i){
   }
   l->data[i] = data;
   l->size++;
-  free(l->Dato);
+  
 }
 
 void* pop(ArrayList * l, int i){
