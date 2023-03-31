@@ -50,10 +50,11 @@ void push(ArrayList * l, void * data, int i){
   } 
   if (l->size == l->capacity) {
     void **Dato = malloc(l->capacity * sizeof(void*));
+    
     for (int k = 0; k < l->size; k++) {
             Dato[k] = l->data[k]; 
   }  
-
+  l->data = Dato;
 }
 
 void* pop(ArrayList * l, int i){
