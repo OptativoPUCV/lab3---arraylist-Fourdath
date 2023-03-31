@@ -57,13 +57,13 @@ void push(ArrayList * l, void * data, int i){
     
     l->data = Dato;
   }  
-  free(Dato);
+  ;
   for (int k = l->size - 1; k >= i; k--) {
         l->data[k + 1] = l->data[k];
   }
   l->data[i] = data;
   l->size++;
-
+  free(Dato)
 }
 
 void* pop(ArrayList * l, int i){

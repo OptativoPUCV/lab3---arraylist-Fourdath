@@ -431,3 +431,20 @@ arraylist.c:60:8: error: ‘Dato’ undeclared (first use in this function)
 arraylist.c:60:8: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 59958b0
+Fri 31 Mar 2023 05:32:16 AM UTC: 
+ arraylist.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+arraylist.c: In function ‘push’:
+arraylist.c:66:8: error: ‘Dato’ undeclared (first use in this function)
+   66 |   free(Dato)
+      |        ^~~~
+arraylist.c:66:8: note: each undeclared identifier is reported only once for each function it appears in
+arraylist.c:66:13: error: expected ‘;’ before ‘}’ token
+   66 |   free(Dato)
+      |             ^
+      |             ;
+   67 | }
+      | ~            
+Compilation failed
+a67345c
