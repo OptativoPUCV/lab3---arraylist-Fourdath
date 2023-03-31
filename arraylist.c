@@ -40,16 +40,17 @@ void append(ArrayList* l, void* data) {
     l->data = nueData; 
     l->capacity = nuevaCap; 
   }
-
   l->data[l->size] = data;
-  l->size++;         
-      
+  l->size++;           
 }
   
 
 
 
 void push(ArrayList * l, void * data, int i){
+  if (i >= l->size) {
+      return; 
+  }  
 
 }
 
