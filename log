@@ -256,3 +256,14 @@ arraylist.c:52:11: error: unused variable ‘Dato’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 e123a0a
+Fri 31 Mar 2023 05:20:43 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+arraylist.c: In function ‘push’:
+arraylist.c:52:12: error: unused variable ‘Dato’ [-Werror=unused-variable]
+   52 |     void **Dato = malloc(l->capacity * sizeof(void*));
+      |            ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+afe4582
