@@ -571,3 +571,14 @@ arraylist.c:100:6: error: ‘list’ undeclared (first use in this function)
 arraylist.c:100:6: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 186023b
+Sat 01 Apr 2023 06:47:46 AM UTC: 
+ arraylist.c | 2 ++
+ 1 file changed, 2 insertions(+)
+In file included from test.c:5:
+arraylist.c: In function ‘clean’:
+arraylist.c:100:6: error: ‘list’ undeclared (first use in this function)
+  100 |   if(list == NULL){
+      |      ^~~~
+arraylist.c:100:6: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+c84cfa6

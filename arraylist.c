@@ -100,5 +100,7 @@ void clean(ArrayList * l){
   if(list == NULL){
     return;
   }
+  list -> size =0;
+  list -> capacity=2;
     
 }
