@@ -97,10 +97,10 @@ int get_size(ArrayList * l){
 
 //remove elements
 void clean(ArrayList * l){
-  if(list == NULL){
+  if(l == NULL){
     return;
   }
-  list -> size =0;
-  list -> capacity=2;
-  free(list->data);  
+  l -> size =0;
+  l -> capacity=2;
+  free(l->data);  
 }

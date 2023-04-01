@@ -593,3 +593,9 @@ arraylist.c:100:6: error: ‘list’ undeclared (first use in this function)
 arraylist.c:100:6: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 24b9330
+Sat 01 Apr 2023 06:48:56 AM UTC: 
+ arraylist.c | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+ tests:  16|0
+total_score: 70/70
+eb3e8b4
