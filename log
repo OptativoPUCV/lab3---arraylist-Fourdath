@@ -560,3 +560,14 @@ Sat 01 Apr 2023 06:43:27 AM UTC:
  tests:  11|1
 total_score: 50/70
 ea354ad
+Sat 01 Apr 2023 06:45:42 AM UTC: 
+ arraylist.c | 3 +++
+ 1 file changed, 3 insertions(+)
+In file included from test.c:5:
+arraylist.c: In function ‘clean’:
+arraylist.c:100:6: error: ‘list’ undeclared (first use in this function)
+  100 |   if(list == NULL){
+      |      ^~~~
+arraylist.c:100:6: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+186023b
