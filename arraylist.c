@@ -90,11 +90,11 @@ void* get(ArrayList * l, int i){
   }
   return l->data[i];
 }
-
+/*
 int get_size(ArrayList * l){
     return l->size;
 }
-
+*/
 //remove elements
 void clean(ArrayList * l){
   if(l == NULL){
