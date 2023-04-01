@@ -102,5 +102,5 @@ void clean(ArrayList * l){
   }
   list -> size =0;
   list -> capacity=2;
-    
+  free(list->data);  
 }
