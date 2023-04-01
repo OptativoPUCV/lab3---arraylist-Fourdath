@@ -537,3 +537,9 @@ arraylist.c:89:1: error: control reaches end of non-void function [-Werror=retur
 cc1: all warnings being treated as errors
 Compilation failed
 78c4a30
+Sat 01 Apr 2023 06:42:18 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  8|2
+total_score: 40/70
+fe71711
