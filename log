@@ -526,3 +526,14 @@ Sat 01 Apr 2023 06:41:57 AM UTC:
  tests:  8|2
 total_score: 40/70
 6f0d797
+Sat 01 Apr 2023 06:42:08 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+arraylist.c: In function ‘get’:
+arraylist.c:89:1: error: control reaches end of non-void function [-Werror=return-type]
+   89 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+78c4a30
